@@ -1,33 +1,16 @@
-# [callmethomas.tech](https://callmethomas.tech)
+# React + Vite
 
-Website I use for resume, portfolio, as well as a instructional blog.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Description
+Currently, two official plugins are available:
 
-This is a website I am programming to learn some things about web development as well as being a central hub for things such as my software developer journey, youtube channel, portfolio, resume, and instructional blogs.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## What I used / learned
-* Host on GitHub Pages
-* Using a google domain for github pages website
-* Making a github build and deploy workflow
-* Using Vite.js
-* Using React.js
-* Using Tailwind CSS
-* Using React Router Dom
+## React Compiler
 
-## Resources
-* [How to Build a Minimal Developer Portfolio Website Using React + Tailwind + Vite](https://www.youtube.com/watch?v=b0pkpcD8Ms4)
-* [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)
-* [Vite.js Documentation](https://vitejs.dev/guide/)
-* [React.js Documenation](https://reactjs.org/docs/getting-started.html)
-* [React Router Documentation](https://reactrouter.com/en/main)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Authors
+## Expanding the ESLint configuration
 
-Contributors names and contact info
-
-[@Thomas Henderson](https://www.facebook.com/profile.php?id=100069452002819)
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
